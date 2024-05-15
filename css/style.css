@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.background {
+  display: flex;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+main {
+  z-index: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+main .enemy .baby-unicorn {
+  width: 15em;
+  margin: 1em;
+}
+main .enemy .health {
+  border: 3px outset #fd0000;
+  border-radius: 20px;
+  width: 5em;
+  background-color: #fd0000;
+  height: 2em;
+}
+main .enemy .mana {
+  border: 3px outset #2701ff;
+  border-radius: 20px;
+  width: 5em;
+  background-color: #2701ff;
+  height: 2em;
+}
+main .player .baby-nightmare-unicorn {
+  width: 15em;
+  margin: 1em;
+}
+main .player .health {
+  border: 3px outset #fd0000;
+  border-radius: 20px;
+  width: 5em;
+  background-color: #fd0000;
+  height: 2em;
+}
+main .player .mana {
+  border: 3px outset #2701ff;
+  border-radius: 20px;
+  width: 5em;
+  background-color: #2701ff;
+  height: 2em;
+}
+
+/*# sourceMappingURL=style.css.map */

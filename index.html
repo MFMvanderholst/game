@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <img class="background" src="img/background.jpg" alt="">
+    <main>
+        <div class="enemy">
+            <img class="baby-unicorn" src="img/baby-unicorn.png" alt="baby-unicorn">
+            <div class="health"><p id="enemy-health">150</p></div>
+            <div class="mana"><p id="enemy-mana">100</p></div>
+        </div>
+        
+        <div class="player">
+            <img class="baby-nightmare-unicorn" src="img/baby-nightmare-unicorn.webp" alt="baby-nightmare-unicorn">
+            <div class="health"><p id="player-health">150</p></div>
+            <div class="mana"><p id="player-mana">100</p></div>
+            <div>
+                <button onclick="clickAttack()">Attack</button>
+                <button onclick="clickHeal()">Heal</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

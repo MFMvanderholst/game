@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.background {
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+main {
+    z-index: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    .enemy {
+        .baby-unicorn {
+            width: 15em;
+            margin: 1em;
+        }
+        .health {
+            border: 3px outset #fd0000;
+            border-radius: 20px;
+            width: 5em;
+            background-color: #fd0000;
+            height: 2em;
+        }
+        .mana {
+            border: 3px outset #2701ff;
+            border-radius: 20px;
+            width: 5em;
+            background-color: #2701ff;
+            height: 2em;
+        }
+    }
+    .player {
+        .baby-nightmare-unicorn {
+            width: 15em;
+            margin: 1em;
+        }
+        .health {
+            border: 3px outset #fd0000;
+            border-radius: 20px;
+            width: 5em;
+            background-color: #fd0000;
+            height: 2em;
+        }
+        .mana {
+            border: 3px outset #2701ff;
+            border-radius: 20px;
+            width: 5em;
+            background-color: #2701ff;
+            height: 2em;
+        }
+    }
+}
